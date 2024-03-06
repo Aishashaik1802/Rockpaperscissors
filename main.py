@@ -6,7 +6,7 @@ def get_user_choice():
         if user_choice in ['rock', 'paper', 'scissors']:
             return user_choice
         else:
-            print("Invalid choice. Please choose rock, paper, or scissors.")
+            print("Invalid choice. Please choose rock, paper, or scissors.") 
 
 def get_computer_choice():
     return random.choice(['rock', 'paper', 'scissors'])
